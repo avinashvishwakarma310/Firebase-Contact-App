@@ -1,4 +1,36 @@
-# Firebase Contact App
+# Firebase Contact App: 
+This is a simple contact management application built using React, Tailwind CSS, and Firebase Firestore.
+
+* Features
+User Authentication: Users can sign up, sign in, and sign out securely.
+Contact Management: Add, edit, delete contacts with name, email, and phone number.
+Real-time Updates: Changes to contacts are reflected in real-time across all connected devices.
+Responsive Design: Mobile-friendly design using Tailwind CSS.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Start the development server: npm start
+
+* Navigate to the project directory: cd firebase-contact-app
+
+* Install dependencies: npm install
+
+* Create a Firebase project and set up Firestore and Authentication.
+Copy the Firebase config object from your Firebase project settings and replace it in src/firebase/config.js:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Usage
+Sign up for an account if you don't have one.
+Sign in with your credentials.
+Add, edit, or delete contacts using the buttons provided.
+Changes will be synced across devices in real-time.
+
+# Technologies Used
+React
+Tailwind CSS
+Firebase (Firestore and Authentication)
+
 # React + Vite
 
 ![Screenshot (24)](https://github.com/avinashvishwakarma310/Firebase-Contact-App/assets/114223255/e175f4ba-e399-4f11-971d-0297b4c5960f)
